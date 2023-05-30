@@ -13,6 +13,7 @@ vertices.add({
   isRestricted: { x: false, y: false, z: false },
   inputDOF: { x: 7, y: 8, z: 9 },
 })
+
 vertices.add({
   name: 'v2',
   coordinates: { x: 15 * 12, y: 0 },
@@ -22,6 +23,7 @@ vertices.add({
   isRestricted: { x: true, y: true, z: true },
   inputDOF: { x: 1, y: 2, z: 3 },
 })
+
 vertices.add({
   name: 'v3',
   coordinates: { x: 0, y: 20 * 12 },
